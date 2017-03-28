@@ -13,7 +13,7 @@ namespace Microsoft.Xbox.Services.Social.Manager
     using Newtonsoft.Json;
     using Newtonsoft.Json.Linq;
 
-    internal class PeopleHubService
+    public class PeopleHubService
     {
         private readonly XboxLiveContextSettings httpCallSettings;
         private readonly XboxLiveAppConfiguration appConfig;

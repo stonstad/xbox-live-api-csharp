@@ -15,7 +15,7 @@ namespace Microsoft.Xbox.Services.Social
         protected XboxLiveContext context;
         protected XboxLiveAppConfiguration config;
 
-        internal ProfileService(XboxLiveAppConfiguration config, XboxLiveContext context, XboxLiveContextSettings settings)
+        public ProfileService(XboxLiveAppConfiguration config, XboxLiveContext context, XboxLiveContextSettings settings)
         {
             this.config = config;
             this.context = context;
